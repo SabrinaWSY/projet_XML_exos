@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°8">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="9" nom="exo8" exercice="Exploration d’une recommandation W3C taggée">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Phase 1 : Document et grammaire
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Modifier l'entête du document en y insérant vos références personnelles (nom, prénom, email, etc.)</LI>
+					<LI>Vérifier la bonne formation du document</LI>
+					<LI>Créer la DTD et établir le lien à la DTD</LI>
+					<LI>Vérifier que le document est valide</LI>
+					
+					<TEXTE>Voici une image de la modification de l'entête et le lien à la DTD:</TEXTE>
+					<IMAGE>./Exos8/head.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Ficher XML phase 1</TEXTE>
+					<LIEN>./Exos8/exo8_1.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher DTD </TEXTE>
+					<LIEN>./Exos8/exo8_1.dtd</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<CONSIGNE num="2">
+					Phase 2 : Définir des requêtes xpath
+				</CONSIGNE>
+				
+				<REPONSE num="2">
+					<LI>Rechercher tous les NOM</LI>
+					<TEXTE>//taggertoken[contains(@pos, 'NOM')]/@wordform</TEXTE>
+					<IMAGE>./Exos8/1.png</IMAGE>
+					<LI>Rechercher tous les VERBE</LI>
+					<TEXTE>//taggertoken[contains(@pos, 'VER')]/@wordform</TEXTE>
+					<IMAGE>./Exos8/2.png</IMAGE>
+					<LI>Rechercher tous les NOM précédés d’un DET</LI>
+					<TEXTE>//taggertoken[contains(@pos, "NOM")][preceding-sibling::*[1][contains(@pos, 'DET')]]/@wordform</TEXTE>
+					<IMAGE>./Exos8/3.png</IMAGE>
+					<LI>Rechercher toutes les séquences NOM ADJ ou ADJ NOM</LI>
+					<TEXTE>//taggertoken[contains(@pos, "NOM")][following-sibling::*[1][contains(@pos, 'ADJ')]]/@wordform | //taggertoken[contains(@pos, "ADJ")][following-sibling::*[1][contains(@pos, 'NOM')]]/@wordform |
+						//taggertoken[contains(@pos, "ADJ")][preceding-sibling::*[1][contains(@pos, 'NOM')]]/@wordform |
+						//taggertoken[contains(@pos, "NOM")][preceding-sibling::*[1][contains(@pos, 'ADJ')]]/@wordform</TEXTE>
+					<IMAGE>./Exos8/4.png</IMAGE>
+					<LI>Rechercher tous les NOM précédés d’un DET</LI>
+					<TEXTE>Pareil que le 3è</TEXTE>
+				</REPONSE>
+			</PARTIE>
+			
+			<PARTIE num="3">
+				<CONSIGNE num="3">
+					Phase 3 : Transformation xslt
+				</CONSIGNE>
+				
+				<REPONSE num="3">
+					<LI>Définir une feuille de styles minimale pour formater le document XML fourni en HTML</LI>
+					<TEXTE>Voici une image de l'affichage html minimal:</TEXTE>
+					<IMAGE>./Exos8/h1.png</IMAGE>
+					<LI>Définir une feuille de styles de telle sorte que les déterminants au féminin apparaîtront en
+						rouge et les déterminants masculins en bleu</LI>
+					<TEXTE>Voici une image de l'affichage html:</TEXTE>
+					<IMAGE>./Exos8/h2.png</IMAGE>
+					<LI>Définir une feuille de styles de telle sorte :
+						1. nom des éléments = catégorie grammaticale
+						2. valeur des éléments = forme des tokens</LI>
+					<IMAGE>./Exos8/h3.png</IMAGE>
+					<TEXTE>Vous trouverez la feuille de style dans la partie téléchargement ci dessous.</TEXTE>
+					
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="3">
+				<FIC>
+					<TEXTE>Ficher de travail XML après phase 1</TEXTE>
+					<LIEN>./Exos8/exo8_1.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT affichage minimal</TEXTE>
+					<LIEN>./Exos8/exo8-3-1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie HTML affichage minimal</TEXTE>
+					<LIEN>./Exos8/exo8-3-1.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT affichage 'DET' féminin et masculin</TEXTE>
+					<LIEN>./Exos8/exo8-3-2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie HTML affichage 'DET' féminin et masculin</TEXTE>
+					<LIEN>./Exos8/exo8-3-2.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT POS</TEXTE>
+					<LIEN>./Exos8/exo8-3-3.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher de sortie XML POS</TEXTE>
+					<LIEN>./Exos8/exo8-3-3.xml</LIEN>
+				</FIC>
+				
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

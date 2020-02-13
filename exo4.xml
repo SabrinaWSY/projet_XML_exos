@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°4">
+
+<INFO>
+	<TITRE> Document structuré </TITRE>
+	<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+	<FORMATION>Master 1 TAL</FORMATION>
+</INFO>
+
+	<CONTENU>
+		<exercice id="4" nom="exo4" exercice="Funeral Blues...">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Le texte FuneralBlues.xml contient un poème de W. H. Auden (1907-1973). Il est extrait en l'occurrence d'un recueil, Tell Me the Truth about Love, ten poems by W. H. Auden, publié en 1976 par Vintage Books, New York. Il est codé en XML en utilisant les conventions de la TEI
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Définir donc une feuille de style (appelée TEI2TablePremiersVers.xsl) qui, sur des textes respectant la proposition TEI, extraie le nom de l'auteur, du recueil, et le premier vers de chaque poème. Dans la feuille de style, dont le résultat est un document HTML, commenter en XML le fonctionnement global et les règles qui le nécessitent</LI>
+					<TEXTE>Voici l'affichage du fichier xml défini par la feuille de style</TEXTE>
+					<IMAGE>./Exos4/exo4_1.png</IMAGE>
+					
+				</REPONSE>
+			</PARTIE>
+				<TELECHARGEMENT num="1">
+					<FIC>
+						<TEXTE>Ficher XML</TEXTE>
+						<LIEN>./Exos4/FuneralBlues_1.xml</LIEN>
+					</FIC>
+					<FIC>
+						<TEXTE>Ficher XSLT</TEXTE>
+						<LIEN>./Exos4/TEI2TablePremiersVers.xsl</LIEN>
+					</FIC>
+				</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<REPONSE num="2">
+					<LI>Définir une feuille de style (appelée NombreVers.xsl) dont le résultat est un document HTML qui affiche le nombre de vers du poème.</LI>
+					<TEXTE>Voici l'affichage du fichier xml qui compte le nombre de vers: </TEXTE>
+					<IMAGE>./Exos4/exo4_2.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			<TELECHARGEMENT num="2">
+				<FIC>
+					<TEXTE>Ficher XML</TEXTE>
+					<LIEN>./Exos4/FuneralBlues_2.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT</TEXTE>
+					<LIEN>./Exos4/NombreVers.xsl</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

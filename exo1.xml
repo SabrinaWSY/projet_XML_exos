@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°1">
+
+<INFO>
+	<TITRE> Document structuré </TITRE>
+	<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+	<FORMATION>Master 1 TAL</FORMATION>
+</INFO>
+
+	<CONTENU>
+		<exercice id="1" nom="exo1" exercice="Structurer l’information (grammaire de document)">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					
+					XML permet de structurer une information. Il est donc nécessaire, avant d'envisager d'utiliser ce format, de se familiariser avec cette structuration. Le paragraphe suivant contient de l'information "en vrac". Réorganisez-la de manière à mettre en évidence sa structure logique, sans forcément passer par une mise en forme XML</CONSIGNE>
+				
+				<REPONSE num="1">
+					<IMAGE>./Exos1/consigne.png</IMAGE>
+					<TEXTE>Pour illustrer cet exercice, nous avons premièrement construit une structure au forme d'une liste à puces:</TEXTE>
+					<IMAGE>./Exos1/list1.jpg</IMAGE>
+					
+				</REPONSE>
+				<REPONSE num="2">
+					<TEXTE>Puis, une autre manière de voir l'exercice en graphe: </TEXTE>
+					<IMAGE>./Exos1/graph2.jpg</IMAGE>
+				</REPONSE>
+				<REPONSE num="3">
+					<TEXTE>Nous avons aussi construit un ficher XML et un ficher DTD: </TEXTE>
+				</REPONSE>
+			</PARTIE>
+			<TELECHARGEMENT>
+				<FIC>
+					<TEXTE>Ficher XML</TEXTE>
+					<LIEN>./Exos1/ex1.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher DTD</TEXTE>
+					<LIEN>./Exos1/ex1.dtd</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

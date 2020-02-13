@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bouteille_d_eau>
+	<Cristaline>
+		<bouteille_1> 
+			<contenance>150 cl</contenance>
+			<composition>
+				<ions_positifs>
+					<calcium>71 mg/l</calcium>
+					<magnésium>5,5 mg/l</magnésium>
+				</ions_positifs>
+				<ions_négatifs>
+					<chlorures>20 mg/l</chlorures>
+					<nitrates>1 mg/l </nitrates>
+				</ions_négatifs>
+				<particules>fer</particules>
+			</composition>
+			<origine>St-Cyr la Source, Loiret</origine>
+			<code_barre>3274080005003</code_barre>
+			<pH>7,45</pH>
+		</bouteille_1>
+		
+		<bouteille_2> 
+			<contenance>50 cl</contenance>
+			<composition>
+				<ions_positifs>
+					<calcium>98 mg/l</calcium>
+					<magnésium>4 mg/l</magnésium>
+				</ions_positifs>
+				<ions_négatifs>
+					<chlorures>3,6 mg/l</chlorures>
+					<nitrates>2 mg/l </nitrates>
+				</ions_négatifs>
+			</composition>
+			<origine>source d'Aurèl, Alpes Maritimes</origine>
+			<code_barre>3268840001008</code_barre>
+			<pH>7,4</pH>
+		</bouteille_2>
+		
+	</Cristaline>
+	
+	<Volvic>
+		<bouteille_1> 
+			<contenance>50 cl</contenance>
+			<composition>
+				<ions_positifs>
+					<calcium>11,5 mg/l</calcium>
+					<magnésium>8 mg/l</magnésium>
+				</ions_positifs>
+				<ions_négatifs>
+					<chlorures>13,5 mg/l</chlorures>
+					<nitrates>6,3 mg/l </nitrates>
+				</ions_négatifs>
+				<particules>silice</particules>
+			</composition>
+			<origine>Volvic, Puy-de-Dôme</origine>
+			<code_barre>3057640117008</code_barre>
+			<pH>7</pH>
+		</bouteille_1>
+		
+	</Volvic>	
+</bouteille_d_eau>

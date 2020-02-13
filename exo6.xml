@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°6">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="9" nom="exo6" exercice="Exploration d’un fichier TEI">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Chacune des questions suivantes doit conduire à construire une (voire plusieurs) feuille de styles pour réaliser les traitements visés :
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Fichier de travail : le dormeur du val (tei)</LI>
+					<LI>Afficher le nom de l'auteur, le titre du poème, la date, et le recueil, dans cet ordre et au sein d'une page HTML bien formée.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/1.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="2">
+					<LI>Afficher le titre et la date du poème, les vers les uns après les autres, sans balise (sortie texte brut)</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/2.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="3">
+					<LI>Afficher le 3ème vers de chaque groupe de vers au sein d'une page HTML bien formée.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/3.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="4">
+					<LI>Afficher seulement le 1er quatrain au sein d'une page HTML bien formée.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/4.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="5">
+					<LI>Afficher chaque vers précédé de son numéro d'ordre au sein du groupe de vers (&lt;lg&gt;).</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/5.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="6">
+					<LI>Idem en ajoutant à chaque groupe de vers son numéro d'ordre.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/6.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="7">
+					<LI>Engendrer une page HTML bien formée dans laquelle le poème (seul, sans titre) est au sein d'un tableau, avec une ligne par vers, et une ligne entre chaque strophe. Penser à aligner les lignes à gauche.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/7.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="8">
+					<LI>Afficher les vers qui contiennent un point-virgule ou deux points (:) (format texte brut)</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/8.png</IMAGE>
+				</REPONSE>
+				<REPONSE num="9">
+					<LI>Afficher les quatrains en gras et les tercets en italiques au sein d'une page HTML bien formée.</LI>
+					<TEXTE>Voici une image de l'affichage du contenu demandé:</TEXTE>
+					<IMAGE>./Exos6/9.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Ficher de travail</TEXTE>
+					<LIEN>./Exos6/dormeur-tei.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 1</TEXTE>
+					<LIEN>./Exos6/q1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 1</TEXTE>
+					<LIEN>./Exos6/exo6_q1.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 2</TEXTE>
+					<LIEN>./Exos6/q2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie txt question 2</TEXTE>
+					<LIEN>./Exos6/exo6_q2.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 3</TEXTE>
+					<LIEN>./Exos6/q3.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 3</TEXTE>
+					<LIEN>./Exos6/exo6_q3.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 4</TEXTE>
+					<LIEN>./Exos6/q4.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 4</TEXTE>
+					<LIEN>./Exos6/exo6_q4.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 5</TEXTE>
+					<LIEN>./Exos6/q5.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 5</TEXTE>
+					<LIEN>./Exos6/exo6_q5.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 6</TEXTE>
+					<LIEN>./Exos6/q6.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 6</TEXTE>
+					<LIEN>./Exos6/exo6_q6.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 7</TEXTE>
+					<LIEN>./Exos6/q7.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 7</TEXTE>
+					<LIEN>./Exos6/exo6_q7.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 8</TEXTE>
+					<LIEN>./Exos6/q8.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie txt question 8</TEXTE>
+					<LIEN>./Exos6/exo6_q8.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher xslt question 9</TEXTE>
+					<LIEN>./Exos6/q9.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher sortie html question 9</TEXTE>
+					<LIEN>./Exos6/exo6_q9.html</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+		</exercice>
+	</CONTENU> 
+</DOC>

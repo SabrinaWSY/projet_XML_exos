@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bibliographie (#PCDATA | livre | article)*>
+<!-- Livre -->
+<!ELEMENT livre (#PCDATA | titre | auteur | tome | edition)*>
+<!ATTLIST livre num CDATA #IMPLIED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ATTLIST auteur num CDATA #IMPLIED>
+<!ELEMENT tome (#PCDATA | nb_page)*>
+<!ATTLIST tome num CDATA #IMPLIED>
+<!ELEMENT nb_page (#PCDATA)>
+<!ELEMENT lieu_ed (#PCDATA)>
+<!ELEMENT lieu_imprim (#PCDATA)>
+<!ELEMENT edition (#PCDATA | maison | lieu_ed | lieu_imprim | ISBN)*>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT maison (#PCDATA)>
+<!-- Article -->
+<!ELEMENT article (#PCDATA | titre | auteur | ref_publication | avis_perso)*>
+<!ELEMENT annee_pub (#PCDATA)>
+<!ELEMENT nom_journal (#PCDATA)>
+<!ELEMENT ref_publication (#PCDATA | nom_journal | numero_page | annee_pub | num_journal)*>
+<!ELEMENT num_journal (#PCDATA)>
+<!ELEMENT numero_page (#PCDATA)>
+<!ELEMENT avis_perso (#PCDATA)>

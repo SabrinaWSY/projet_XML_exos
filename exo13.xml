@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°13">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="13" nom="exo13" exercice="Extraction dans les Fils RSS du Monde">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Fichiers de travail : rubrique «A la Une» 2017 étiquetée avec treetagger
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>XSLT</LI>
+					<LI>1. Construire une feuille de styles pour afficher les contenus étiquetés avec TreeTagger</LI>
+					<LI>2. Construire des feuilles de style pour extraire (au format TXT) au moins 3 patrons morpho-
+						syntaxiques (de longueurs différentes) sur les mêmes fichiers</LI>
+					<LI>3. Construire une feuille de styles pour afficher les contenus étiquetés avec TreeTagger en
+						mettant au jour un patron morphosyntaxique. Ci-dessous le patron NOM ADJ :</LI>
+					<TEXTE>Voici une image du fichier sortie html</TEXTE>
+					<IMAGE>./Exos13/tree3.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Fichier XSLT 1</TEXTE>
+					<LIEN>./Exos13/tree_xslt1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 1 : les contenus étiquetés avec TreeTagger</TEXTE>
+					<LIEN>./Exos13/tree1.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 2</TEXTE>
+					<LIEN>./Exos13/tree_xslt2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 2 : 3 patrons morpho-syntaxiques</TEXTE>
+					<LIEN>./Exos13/tree2.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 3</TEXTE>
+					<LIEN>./Exos13/tree_xslt3.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie html 3 : un patron morphosyntaxique mis à jour</TEXTE>
+					<LIEN>./Exos13/tree3.html</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<CONSIGNE num="2">
+					XQuery (via BASEX) (Tree-Tagger)
+				</CONSIGNE>
+				
+				<REPONSE num="2">
+					<LI>1. Construire une requête pour extraire les contenus textuels des titres</LI>
+					<IMAGE>./Exos13/tree_1.png</IMAGE>
+					<LI>2. Construire une requête pour extraire les contenus textuels des descriptions</LI>
+					<IMAGE>./Exos13/tree_2.png</IMAGE>
+					<LI>3. Construire une requête pour extraire les contenus textuels des titres ET des descriptions</LI>
+					<IMAGE>./Exos13/tree_3.png</IMAGE>
+					<LI>4. Construire une requête pour extraire les patrons morpho-syntaxiques NOM ADJ</LI>
+					<IMAGE>./Exos13/tree_4.png</IMAGE>
+					<LI>5. Construire une requête pour extraire les patrons morpho-syntaxiques NOM PRP NOM</LI>
+					<IMAGE>./Exos13/tree_5.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="2">
+				<FIC>
+					<TEXTE>Requête XQuery 1</TEXTE>
+					<LIEN>./Exos13/xquery_tt_1.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 2</TEXTE>
+					<LIEN>./Exos13/xquery_tt_2.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 3</TEXTE>
+					<LIEN>./Exos13/xquery_tt_3.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 4</TEXTE>
+					<LIEN>./Exos13/xquery_tt_4.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 5</TEXTE>
+					<LIEN>./Exos13/xquery_tt_5.xq</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="3">
+				<CONSIGNE num="3">
+					Fichiers de travail : On utilisera ici les fils RSS de l’année 2018 étiquetés avec Talismane dans le cours Projet Encadré.
+				</CONSIGNE>
+				
+				<REPONSE num="3">
+					<LI>XSLT (Talismane)</LI>
+					<LI>1. Construire une feuille de styles pour afficher les contenus étiquetés des «titres» uniquement</LI>
+					<LI>2. Peut-on envisager de construire une feuille de styles pour afficher chaque « titre » en regard de sa « description » : par exemple un tableau avec 2 colonnes, à gauche les titres et à droite les descriptions (un alignement en somme) ? si cela n’est pas possible directement, quel est l’alignement minimal que l’on peut mettre en œuvre ? Construire cet alignement minimal...
+					</LI>
+					<LI>3. Construire des feuilles de style pour extraire (au format TXT) au moins 3 patrons morpho- syntaxiques (de longueurs différentes) sur les « titres » uniquement puis sur les « descriptions » uniquement</LI>
+					<LI>4. Construire une feuille de styles pour afficher les contenus étiquetés en mettant au jour un patron morphosyntaxique sur les « titres » uniquement puis sur les « descriptions » uniquement</LI>
+					<TEXTE>Voici une image du fichier sortie html pour titre:</TEXTE>
+					<IMAGE>./Exos13/talis4.png</IMAGE>
+					<TEXTE>Et voici une image du fichier sortie html pour description:</TEXTE>
+					<IMAGE>./Exos13/talis4bis.png</IMAGE>
+					<LI>5. Construire une feuille de styles pour extraire (au format TXT) les items en relation de dépendance syntaxique de type OBJ (les classer et les compter). Essayer de tenir compte de la différence titre/description</LI>
+					<LI>6. Construire une feuille de styles pour extraire la liste des POS en relation de dépendance syntaxique de type OBJ (les classer et les compter)
+					</LI>
+					
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="3">
+				<FIC>
+					<TEXTE>Fichier XSLT 1</TEXTE>
+					<LIEN>./Exos13/talis_xslt1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 1 : «titres» uniquement étiquetés avec Talismane</TEXTE>
+					<LIEN>./Exos13/talis1.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 2</TEXTE>
+					<LIEN>./Exos13/talis_xslt2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie html 2 : alignement titres et descriptions</TEXTE>
+					<LIEN>./Exos13/talis2.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 3</TEXTE>
+					<LIEN>./Exos13/talis_xslt3.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie html 3 : 3 patrons morphosyntaxiques</TEXTE>
+					<LIEN>./Exos13/talis3.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 4</TEXTE>
+					<LIEN>./Exos13/talis_xslt4.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie html 4 :  un patron morphosyntaxique mis à jour</TEXTE>
+					<LIEN>./Exos13/talis4.html</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 5</TEXTE>
+					<LIEN>./Exos13/talis_xslt5_bis.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 5 : items en relation de dépendance syntaxique de type OBJ (classé Titre)</TEXTE>
+					<LIEN>./Exos13/talis5_bis_titre.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 5 : items en relation de dépendance syntaxique de type OBJ (classé Descritpion)</TEXTE>
+					<LIEN>./Exos13/talis5_bis_description.txt</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT 6</TEXTE>
+					<LIEN>./Exos13/talis_xslt6.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie txt 6 : liste des POS en relation de dépendance syntaxique de type OBJ</TEXTE>
+					<LIEN>./Exos13/talis6.txt</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="4">
+				<CONSIGNE num="4">
+					XQuery (via BASEX) (Talismane)
+				</CONSIGNE>
+				
+				<REPONSE num="4">
+					<LI>1. Construire une requête pour compter le nombre de titres, le nombre de descriptions.</LI>
+					<IMAGE>./Exos13/talis_1.png</IMAGE>
+					<LI>2. Construire une requête pour extraire les contenus textuels des « titres »</LI>
+					<IMAGE>./Exos13/talis_2.png</IMAGE>
+					<LI>3. Construire une requête pour extraire les contenus textuels des « descriptions »</LI>
+					<IMAGE>./Exos13/talis_3.png</IMAGE>
+					<LI>4. Construire une requête pour extraire les contenus textuels des titres ET des descriptions</LI>
+					<IMAGE>./Exos13/talis_4.png</IMAGE>
+					<LI>5. Construire une requête pour extraire les patrons morpho-syntaxiques NOM ADJ</LI>
+					<IMAGE>./Exos13/talis_5.png</IMAGE>
+					<LI>6. Construire une requête pour extraire les patrons morpho-syntaxiques NOM PRP NOM</LI>
+					<IMAGE>./Exos13/talis_6.png</IMAGE>
+					<LI>7. Construire une requête pour extraire les items portant une relation de dépendance
+						syntaxique de type OBJ</LI>
+					<IMAGE>./Exos13/talis_7.png</IMAGE>
+					<LI>8. Construire une requête pour extraire les items en relation de dépendance syntaxique de type
+						SUB (on affichera les formes ou les lemmes connectés par cette relation)</LI>
+					<IMAGE>./Exos13/talis_8.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="4">
+				<FIC>
+					<TEXTE>Requête XQuery 1</TEXTE>
+					<LIEN>./Exos13/xquery_talis_1.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 2</TEXTE>
+					<LIEN>./Exos13/xquery_talis_2.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 3</TEXTE>
+					<LIEN>./Exos13/xquery_talis_3.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 4</TEXTE>
+					<LIEN>./Exos13/xquery_talis_4.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 5</TEXTE>
+					<LIEN>./Exos13/xquery_talis_5.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 6</TEXTE>
+					<LIEN>./Exos13/xquery_talis_6.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 7</TEXTE>
+					<LIEN>./Exos13/xquery_talis_7.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XQuery 8</TEXTE>
+					<LIEN>./Exos13/xquery_talis_8.xq</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+		</exercice>
+	</CONTENU> 
+</DOC>

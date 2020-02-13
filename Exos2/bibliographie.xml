@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliographie SYSTEM "file:/Users/siyuwang/Documents/TAL_M1/S2/XML/Site_Final/Exos2/bibliographie.dtd">
+<!-- Exos2 phase 1 Lara et Siyu-->
+<bibliographie>
+    <livre num="1">
+        <titre>Harry Potter à l'école des sorciers</titre>
+        <auteur>J.K.Rowling</auteur>
+        <tome num="1">
+            <nb_page>320</nb_page>
+        </tome>
+        <edition>
+            <maison>Gallimard jeunesse</maison>
+            <lieu_ed>5 Rue Gaston Gallimard, 75007 Paris</lieu_ed>
+            <lieu_imprim>Paris</lieu_imprim>
+            <ISBN>2070584623</ISBN>
+        </edition>
+    </livre>
+    <livre num="2">
+        <titre>Hunger Games: La révolte</titre>
+        <auteur>Suzanne Collins</auteur>
+        <tome num="3">
+            <nb_page>464</nb_page>
+        </tome>
+        <edition>
+            <maison>Pocket Jeunesse</maison>
+            <lieu_ed>Paris</lieu_ed>
+            <lieu_imprim>Paris</lieu_imprim>
+            <ISBN>2266260790</ISBN>
+        </edition>
+    </livre>
+    <article>
+        <titre>Automatic identification of word translations from unrelated English and German corpora.</titre>
+        <auteur num="1">Reinhard Rapp</auteur>
+        <ref_publication>
+            <nom_journal>ACL</nom_journal>
+            <numero_page>519–526</numero_page>
+            <annee_pub>1999</annee_pub>
+            <num_journal>37</num_journal>
+        </ref_publication>
+        <avis_perso>bien</avis_perso>
+    </article>
+</bibliographie>

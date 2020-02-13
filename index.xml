@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="page" nom="Accueil">
+
+<INFO>
+	<TITRE> Document structuré </TITRE>
+	<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+	<FORMATION>Master 1 TAL</FORMATION>
+</INFO>
+
+<CONTENU>
+
+<ART entete="Bienvenue !">
+<TEXTE>Ce site a été réalisé dans le cadre du cours «Document structuré » du M1 « <LIEN url="http://tal.univ-paris3.fr/plurital/index.html">PluriTAL</LIEN> » (<LIEN url="http://www.univ-paris3.fr">Sorbonne Nouvelle - Paris 3</LIEN>, <LIEN url="http://www.inalco.fr/">INALCO</LIEN>, <LIEN url="http://www.u-paris10.fr">Paris Nanterre</LIEN></TEXTE>
+<TEXTE>Il est entièrement codé en XML.</TEXTE>
+<TEXTE>Il regroupe plusieurs exercices qui, en les faisant, nous ont permis d'apprendre un peu plus le langage XML et ses applications.</TEXTE>
+</ART>
+
+<ART nom="site" titre="Réalisation du site">
+<TEXTE>Ces documents font appel à une feuille de transformation XSLT dans laquelle est défini le corps du document HTML à générer en sortie et dont le contenu est extrait du document XML par l'utilisation du langage XSLT et des requêtes XPath.</TEXTE> 
+<TEXTE>La structure "visuelle" du site est générée par une feuille de style CSS.</TEXTE>
+<TEXTE>Nous tenons à remercier Madame Ioana GALLERON pour avoir nous introduit dans le monde du XML, et à Monsieur Serge FLEURY qui a dirigé ce cours et nous a accompagné durant tout le semestre. Il a été d'une aide précieuse de part son écoute, sa persevérance et les nombreuses ressources auquelles il nous a permis d'avoir accès.</TEXTE>
+
+</ART>
+
+<ART nom="about" titre="À propos">
+	<TEXTE></TEXTE>
+</ART>
+</CONTENU>
+</DOC>

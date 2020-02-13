@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°2">
+
+<INFO>
+	<TITRE> Document structuré </TITRE>
+	<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+	<FORMATION>Master 1 TAL</FORMATION>
+</INFO>
+
+	<CONTENU>
+		<exercice id="2" nom="exo2" exercice="DTD">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Rédiger une DTD pour une bibliographie. Cette bibliographie contient des livres et des articles ; Les informations nécessaires pour un livre sont : son titre général ; les noms des auteurs ; ses tomes et pour chaque tome, leur nombre de pages ; des informations générales sur son édition comme par exemple le nom de l'éditeur, le lieu d'édition, le lieu d'impression, son numéro ISBN ; Les informations nécessaires pour un article sont : son titre ; les noms des auteurs ; ses références de publication : nom du journal, numéro des pages, année de publication et numéro du journal on réservera aussi un champ optionnel pour un avis personnel. Tester cette DTD avec un fichier XML que l'on écrira ex-nihilo et validera.
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<TEXTE>Voici le fichier DTD que nous avons construit:</TEXTE>
+					<IMAGE>./Exos2/Exo2_1dtd.png</IMAGE>
+					<TEXTE>Puis, le fichier XML basé sur cette structure DTD:</TEXTE>
+					<IMAGE>./Exos2/Exo2_1xml.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Ficher XML bibliographie</TEXTE>
+					<LIEN>./Exos2/bibliographie.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher DTD bibliographie</TEXTE>
+					<LIEN>./Exos2/bibliographie.dtd</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<CONSIGNE num="2">
+					Modifier la DTD précédente... en ajoutant un attribut optionnel soustitre à l'élément titre ; en faisant de l'élément tome un élément vide et en lui ajoutant un attribut requis nb_pages et un attribut optionnel soustitre ; en faisant de l'élément nom_journal un attribut de l'élément journal et en lui donnant comme valeur par défaut Feuille de Chou ; en faisant de l'élément annee un attribut de type énuméré, prenant comme valeurs possibles 2000, 2001, 2002, "avant_2000" et "inconnue" et proposant comme valeur par défaut inconnue. Utiliser cette DTD pour créer un fichier XML valide.
+				</CONSIGNE>
+				
+				<REPONSE num="2">
+					<TEXTE>Voici le fichier DTD que nous avons modifié selon les consignes: </TEXTE>
+					<IMAGE>./Exos2/Exo2_2dtd.png</IMAGE>
+					<TEXTE>Puis, le fichier XML basé sur cette structure DTD:</TEXTE>
+					<IMAGE>./Exos2/Exo2_2xml.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="2">
+				<FIC>
+					<TEXTE>Ficher XML bibliographie2</TEXTE>
+					<LIEN>./Exos2/bibliographie2.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher DTD bibliographie2</TEXTE>
+					<LIEN>./Exos2/bibliographie2.dtd</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

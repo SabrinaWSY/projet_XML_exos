@@ -1,0 +1,26 @@
+
+1. Rechercher les uttérances (associées aux éléments <u>) de l'opérateur : 
+
+//u[@who=‘O’]
+
+//u[contains(@who, 'O')]
+
+
+2. Rechercher les uttérances (associées aux éléments <u>) du client : 
+
+//u[@who='C']
+
+//u[contains(@who, 'C')]
+
+
+3. Rechercher les uttérances (associées aux éléments <u>) qui contiennent le mot "quand" : 
+
+//u[(contains (., 'quand'))]
+
+4. Rechercher les uttérances (associées aux éléments <u>) qui contiennent le caractère '?' 
+
+//u[(contains (.,'?'))]
+
+5. Rechercher les uttérances (associées aux éléments <u>) qui précèdent celles qui contiennent le caractère '?' 
+
+//u[preceding-sibling::u[1]/text()[contains(., '?')]]

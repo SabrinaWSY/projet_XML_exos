@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°9">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="9" nom="exo9" exercice="Fichier clientèle Air France">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Document et grammaire
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Modifier l'entête du document en y insérant vos références personnelles (nom, prénom, email, etc.)</LI>
+					<LI>Vérifier la bonne formation du document</LI>
+					<LI>Créer la DTD et établir le lien à la DTD</LI>
+					<TEXTE>Voici une image de la modification de l'entête et le lien à la DTD:</TEXTE>
+					<IMAGE>./Exos9/Exo9_1.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Ficher XML phase 1</TEXTE>
+					<LIEN>./Exos9/AF_corpus_070703.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher DTD </TEXTE>
+					<LIEN>./Exos9/AF_corpus_070703.dtd</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<CONSIGNE num="2">
+					Définir des requêtes xpath
+				</CONSIGNE>
+				
+				<REPONSE num="2">
+					<LI>Rechercher les uttérances (associées aux élements &lt;u&gt;) de l’opérateur</LI>
+					<TEXTE>//u[@who='O'] </TEXTE>
+					<TEXTE>//u[contains(@who, 'O')]</TEXTE>
+					<IMAGE>./Exos9/1.png</IMAGE>
+					<LI>Rechercher les uttérances (associées aux élements &lt;u&gt;) du client</LI>
+					<TEXTE>//u[@who='C']</TEXTE>
+					<TEXTE>//u[contains(@who, 'C')]</TEXTE>
+					<IMAGE>./Exos9/2.png</IMAGE>
+					<LI>Rechercher les uttérances (associées aux éléments &lt;u&gt;) qui contiennent le mot "quand" : 
+					</LI>
+					<TEXTE>//u[(contains (., 'quand'))]</TEXTE>
+					<IMAGE>./Exos9/3.png</IMAGE>
+					<LI>Rechercher les uttérances (associées aux éléments &lt;u&gt;) qui contiennent le caractère '?' 
+					</LI>
+					<TEXTE>//u[(contains (.,'?'))]</TEXTE>
+					<IMAGE>./Exos9/4.png</IMAGE>
+					<LI>Rechercher les uttérances (associées aux éléments &lt;u&gt;) qui précèdent celles qui contiennent le caractère '?' </LI>
+					<TEXTE>//u[preceding-sibling::u[1]/text()[contains(., '?')]]</TEXTE>
+					<IMAGE>./Exos9/5.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<PARTIE num="3">
+				<CONSIGNE num="3">
+					Transformation xslt
+				</CONSIGNE>
+				
+				<REPONSE num="3">
+					<LI>Etape 1 :</LI>
+					<LI>Définir une feuille de styles minimale pour formater le document XML fourni en HTML</LI>
+					<TEXTE>Voici une image de l'affichage html minimal:</TEXTE>
+					<IMAGE>./Exos9/Exo9_3_1.png</IMAGE>
+					<LI>Définir une feuille de styles permettant d’afficher les uttérances (associées aux élements
+						&lt;u&gt;) qui contiennent le mot "quand", avec :
+							uttérance précédente;
+							uttérance suivante;
+							contexte gauche (éventuellement tronqué);
+							contexte droit (éventuellement tronqué).</LI>
+					<TEXTE>Voici une image de l'affichage html des uttérances qui contiennent le mot "quand":</TEXTE>
+					<IMAGE>./Exos9/Exo9_3_2.png</IMAGE>
+					<LI>Etape 2 :
+						Définir une feuille de style permettant d’obtenir une copie à l'identique du fichier de départ avec marquage des occurrences de "ah", "ah bon", "ah oui" </LI>
+					<TEXTE>Vous trouverez la feuille de style dans la partie téléchargement ci dessous.</TEXTE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="3">
+				<FIC>
+					<TEXTE>Ficher XML affichage minimal</TEXTE>
+					<LIEN>./Exos9/AF_corpus_070703_minimal.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT affichage minimal</TEXTE>
+					<LIEN>./Exos9/exo9-3-1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XML affichage 'quand'</TEXTE>
+					<LIEN>./Exos9/AF_corpus_070703_quand.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT affichage 'quand'</TEXTE>
+					<LIEN>./Exos9/exo9-3-2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XML 'oui'</TEXTE>
+					<LIEN>./Exos9/AF_corpus_070703_oui.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT copie 'oui'</TEXTE>
+					<LIEN>./Exos9/exo9-3-3.xsl</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

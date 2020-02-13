@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bouteille_d_eau (#PCDATA | Cristaline | Volvic)*>
+
+<!ELEMENT Cristaline (#PCDATA | bouteille_1 | bouteille_2)*>
+<!ELEMENT Volvic (#PCDATA | bouteille_1)*>
+
+<!ELEMENT bouteille_1 (#PCDATA | contenance | composition | origine | code_barre | pH)*>
+<!ELEMENT bouteille_2 (#PCDATA | contenance | composition | origine | code_barre | pH)*>
+
+<!ELEMENT contenance (#PCDATA)>
+<!ELEMENT composition (#PCDATA | ions_positifs | ions_négatifs | particules)*>
+<!ELEMENT ions_positifs (#PCDATA | calcium | magnésium)*>
+<!ELEMENT calcium (#PCDATA)>
+<!ELEMENT magnésium (#PCDATA)>
+<!ELEMENT ions_négatifs (#PCDATA | chlorures | nitrates)*>
+<!ELEMENT chlorures (#PCDATA)>
+<!ELEMENT nitrates (#PCDATA)>
+<!ELEMENT particules (#PCDATA)>
+
+<!ELEMENT origine (#PCDATA)>
+<!ELEMENT code_barre (#PCDATA)>
+<!ELEMENT pH (#PCDATA)>
+

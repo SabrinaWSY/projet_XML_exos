@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bibliographie (#PCDATA | livre | article)*>
+<!-- Livre -->
+<!ELEMENT livre (#PCDATA | titre | auteur | tome | edition)*>
+<!ATTLIST livre num CDATA #IMPLIED>
+<!ELEMENT titre (#PCDATA)>
+<!ATTLIST titre soustitre CDATA #IMPLIED >
+<!ELEMENT auteur (#PCDATA)>
+<!ATTLIST auteur num CDATA #IMPLIED>
+<!ELEMENT tome EMPTY >
+<!ATTLIST tome nb_pages CDATA #REQUIRED>
+<!ATTLIST tome soustitre CDATA #IMPLIED >
+<!ATTLIST tome num CDATA #IMPLIED>
+<!ELEMENT lieu_ed (#PCDATA)>
+<!ELEMENT edition (#PCDATA | maison | lieu_ed | lieu_imprim | ISBN)*>
+<!ELEMENT lieu_imprim (#PCDATA)>
+<!ELEMENT maison (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!-- Article -->
+<!ELEMENT article (titre | auteur | ref_publication | avis_perso)*>
+<!ELEMENT journal (#PCDATA) >
+<!ATTLIST journal nom_journal CDATA "Feuille de chou">
+<!ATTLIST journal annee_publi ( 2000 | 2001 | 2002 | avant_2000 | inconnue) "inconnue">
+<!ELEMENT ref_publication (#PCDATA | journal | numero_page | annee_pub | num_journal)*>
+<!ELEMENT num_journal (#PCDATA)>
+<!ELEMENT avis_perso (#PCDATA)>
+<!ELEMENT numero_page (#PCDATA)>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°3">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="3" nom="exo3" exercice="TEI">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Construisez un document XML/TEI en encodant une colonne du Dictionnaire universel d’Antoine Furetière, dans la version de 1701 revue, augmentée et corrigée par Basnage de Beauval.
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>respectez la graphie d’origine : n’introduisez pas des accents, ne corrigez pas la syntaxe ou la forme des mots ;</LI>
+					<LI>attention aux « s longs » : « ſans » est à lire « sans » pas « fans » ;</LI>
+					<LI>ne développez pas les abréviations ;</LI>
+					<LI>rappelez-vous que l’exercice doit se concentrer sur l’encodage de l’information : si vous avez le temps, relevez aussi les éléments de typographie (ex. italiques), mais seulement si vous avez le temps !</LI>
+					
+					<TEXTE>Lara: ROT - ROTULE</TEXTE>
+					<IMAGE>./Exos3/1.png</IMAGE>
+					<IMAGE>./Exos3/2.png</IMAGE>
+				</REPONSE>
+		
+				<REPONSE num="2">
+					<TEXTE>Siyu: ROTURE - ROUCHE</TEXTE>
+					<IMAGE>./Exos3/3.png</IMAGE>
+					<IMAGE>./Exos3/4.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT>
+				<FIC>
+					<TEXTE>Ficher XML Lara</TEXTE>
+					<LIEN>./Exos3/dico_lara.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XML Siyu</TEXTE>
+					<LIEN>./Exos3/dico_siyu.xml</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

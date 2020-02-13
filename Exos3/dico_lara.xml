@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionnaire>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt><title>Transcription électronique au format XML du Dictionnaire universel d’Antoine Furetière, dans la version de 1701 revue, augmentée et corrigée par Basnage de Beauval. Avec la norme TEI.</title></titleStmt>
+            <publicationStmt><p>Lara DUNUAN</p><p>Produit dans le cadre du cours "documents structurés" encodé pour que ce soit le plus ressemblant possible au document original. Encodage de "rot" jusqu'à "rotule" dans la section ROT.</p></publicationStmt>
+            <sourceDesc>Section ROT, groupe d'entrées ROT-ROTULE du Dictionnaire universel d’Antoine Furetière, dans la version de 1701 revue, augmentée et corrigée par Basnage de Beauval.</sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div section="ROT">
+                <entry xml:id="rot">
+                    <form><orth>ROT</orth></form>.<gramGrp> ſubſt. maſc. </gramGrp><def>Ventoſité qui ſort par la bouche<lb/>
+                        avec un bruit deſagreable.</def>
+                    <cit type="exemple"><quote><quote>
+                        Il y a des <hi>rots</hi> de repletion,<lb/>
+                        &amp; d'autres d'inanition.</quote></quote></cit><cit type="exemple"><quote><quote>Les <hi>rots</hi> viennent ordinaire-<lb/>
+                        ment d'un acide mêlé avec une matiere viſqueuſe, &amp;<lb/>
+                        groſiere, qui fermentent enſemble dans l'eſtomac.<lb/></quote></quote></cit><cit type="exemple"><quote>Les hypochondriaques, &amp; les femmes hyſteriques<lb/>
+                        ſont fort ſujets aux <hi>rots</hi>.</quote></cit><cit type="exemple"><quote>Les Allemans font des <hi>rots</hi> au<lb/>
+                        lieu de ſoupirs. O<hi rend="smallCaps">E</hi>. M.</quote></cit><lb/><retour type="haut de page"/>
+                    <cit type="exemple"><quote><hi>Et ſoupirs ſa bouche exhaloit<lb/>
+                        Qui tenoient du</hi> rot <hi>quelque choſe;<lb/>
+                        Mais ſa fureur en étoit cauſe.</hi>. <author>S<hi rend="smallCaps">CAR</hi>.</author></quote></cit><lb/>
+                </entry>
+                <entry xml:id="rotateur">
+                    <form><orth>ROTATEUR</orth></form>.<gramGrp> adj. </gramGrp><def>eſt une épithete que les Mede-<lb/>
+                        cins donnent aux muſcles obliques de l'œil, qu'ils ap-<lb/>
+                        ellent autrement <hi>circulaires  &amp; amoureux </hi>, parceque<lb/>
+                        leur mouvement eſt une marque de tendreſſe  &amp; de paſ-<lb/>
+                        ſion</def><lb/>
+                </entry>
+                <entry xml:id="rote">
+                    <form><orth>ROTE</orth></form>.<gramGrp> ſubſt. f. </gramGrp><def>Juriſdiction de Rome, compoſée de<lb/>
+                        douze Docteurs, qu'on appelle Auditeurs de <hi>Rote</hi>,<lb/>
+                        &amp; pris dans les quatre nations d'Italie, France, Eſ-<lb/>
+                        agne, &amp; Allemagne: il y en a trois Romains, un<lb/>
+                        Toſcan, un Milanois, un Bolonois, un Ferrarois,<lb/>
+                        un Venitien, un François, deux Eſpagnols, &amp; un<lb/>
+                        Allemand: chacun d'eux a quatre Clercs, ou Notai-<lb/>
+                        res ſous lui. Ils jugent de toutes les cauſes beneficia-<lb/>
+                        les, &amp; profanes, tant de Rome, que des Provinces<lb/>
+                        de l'Etat Eccleſiaſtique en cas d'appel, &amp; de tous les<lb/>
+                        procés des Etats du Pape au deſſus de cinq cens écus.<lb/>
+                        Ils s'appellent auſſi Chapelains du Pape, ayant ſucce-<lb/>
+                        dé aux anciens Juges du Sacré Palais, qui jugeoient<lb/>
+                        dans ſa Chapelle.</def><lb/>
+                    <etym>Ce nom de <hi>Rote</hi> vient, dit-on, ou de ce que les Juges<lb/>
+                        ſervent tour-à-tour, ou de ce que les plus importantes<lb/>
+                        affaires du monde Chretien roulent devant eux. Du<lb/>
+                        Cange le derive de <hi>rota porpbyretica</hi>, à cauſe que le pa-<lb/>
+                        vé de la chambre étoit autrefois de porphyre, &amp; tail-<lb/>
+                        lé en forme de rouë: ce qui a donné lieu à nommer<lb/>
+                        ainſi la Jurisdiction qui s'y tient: ce fut le Pape Jean<lb/>
+                        XXII. qui l'établit. </etym> <note>Il y a un Recueil fameux de leurs<lb/>
+                        jugemens, qu'on appelle Deciſions de la <hi>Rote</hi>. Il y a<lb/>
+                        auſſi une <hi>Rote</hi> à Gennes, &amp; en quelques autres villes<lb/>
+                        d'Italie.</note><lb/>
+                </entry>
+                <entry xml:id="roter"><sense n="1">						
+                    <form><orth>ROTER</orth></form>. <gramGrp>v. n.</gramGrp><def>Faire un rot. </def></sense><cit type="exemple"><quote>Il eſt naturel de <hi>roter</hi>;<lb/>
+                        mais il ne faut pas <hi>roter</hi> au nez des gens. </quote></cit><cit type="exemple"><quote>Et s'il vient à<lb/>
+                        <hi>roter</hi>, il lui dit, Dieu vous aide. <author>M<hi rend="smallCaps">OL</hi>. </author></quote></cit><cit type="exemple"><quote>Quand un<lb/>
+                        homme <hi>rote</hi>, on dit proverbialement, <hi>Deo gratias</hi>,<lb/>
+                        les Moines ſont ſaouls.</quote></cit><lb/>
+                    <etym>Ce mot vient du Latin <hi>eructare</hi>.</etym><lb/>
+                    R<hi rend="smallCaps">OTER</hi>.<sense n="2"> <gramGrp>v. act.</gramGrp> <usage type="terme" ana="#marine">Terme de Marine.</usage> C'eſt lier quelque<lb/>
+                        choſe bien uniment avec une corde.</sense>
+                </entry>
+                <entry xml:id="rotie">					
+                    <form><orth>ROTIE</orth></form>. <note>Voyez R<hi rend="smallCaps">OSTIE</hi>.</note><lb/>
+                </entry>
+                <entry xml:id="rotonde"><sense n="1">						
+                    <form><orth>ROTONDE</orth></form>. <gramGrp>ſ.f.</gramGrp><def>Qui eſt édifié en rond. </def></sense><note>On ne<lb/>
+                        le dit qu'en cette phraſe: Nôtre Dame de la <hi rend="smallCaps">Rotonde</hi>.<lb/>
+                        C'eſt une Egliſe ancienne de Rome qui eſt bâtie en<lb/>
+                        rond, &amp; dediée à la Vierge, &amp; aux Saints; c'étoit<lb/>
+                        autrefois le Pantheon. A ſon imitation on a fait quel-<lb/>
+                        ques <hi rend="smallCaps">Rotondes</hi> en France.</note><lb/>
+                    R<hi rend="smallCaps">OTONDE</hi>,<sense n="2"> eſt auſſi un collet empeſé que les hommes<lb/>
+                        portoient autrefois, monté ſur du carton qui le ſoute-<lb/>
+                        noit en l'air &amp; en état. Les galans avoient grand' peur<lb/>
+                        qu'on leur gâtât leur <hi rend="smallCaps">rotonde</hi>. Qui eût dit en me voyant<lb/>
+                        avec ma <hi rend="smallCaps">rotonde</hi>, que je courois fortune de ramer.<lb/>
+                        V<hi rend="smallCaps">OIT</hi></sense>
+                </entry>
+                <entry xml:id="rotondité">
+                    <form><orth>ROTONDITÉ</orth></form>.<gramGrp> ſ.f. </gramGrp><def>Terme dogmatique qui ſi-<lb/>
+                        nifie, Rondeur.</def><cit type="exemple"><quote>Il eſt aiſé de prouver la <hi>rotondité</hi> de<lb/>
+                        la terre &amp; des autres aſtres.</quote></cit><lb/>
+                </entry>
+                <entry xml:id="rotule">
+                    <form><orth>ROTULE</orth></form>.<gramGrp> ſ. f. </gramGrp><def>Petit os rond situé à la rencontre de<lb/>
+                        l'articulation de la cuiſſe &amp; de la jambe pardevant. Il<lb/>
+                        eſt un peu convexe en dehors, ſemblable à un bouclier<lb/>
+                        circulaire; il eſt enduit d'un cartilage poli pour le ren-<lb/>
+                        dre plus mobile; il eſt couvert des ligamens &amp; des ten-<lb/>
+                        dons des muſcles. La <hi>rotule</hi> ſert à augmenter la lar-<lb/>
+                        geur de l'article de la jambe, &amp; à éloigner la puiſſan-<lb/>
+                        ce de l'appui, en allongeant le bras du levier; elle ſert<lb/>
+                        encore de poulie aux tendons des muſcles qui paſſent<lb/>
+                        pardeſſus.</def><lb/>
+                    <etym>Ce mot vient du Latin <hi>rotula, roulette</hi>, parceque cet<lb/>
+                        os reſſemble à une roulette. On l'appelle autrement<lb/>
+                        <hi>meule</hi> ou <hi>palette</hi>, à cauſe qu'il leur reſſemble en quel-<lb/>
+                        que façon.</etym><lb/>
+                </entry>			
+            </div>
+        </body>
+    </text>
+</dictionnaire>

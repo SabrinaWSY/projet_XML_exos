@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°7">
+
+<INFO>
+	<TITRE> Document structuré </TITRE>
+	<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+	<FORMATION>Master 1 TAL</FORMATION>
+</INFO>
+
+	<CONTENU>
+		<exercice id="7" nom="exo7" exercice="« Regrouper des éléments »">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Le fichier à traiter provient du corpus Prématurés00 : les infirmières (triées par ancienneté).
+					On veut désormais factoriser les informations sur les infirmières relevant d'une même classe
+					d'ancienneté.
+					On utilise alors la possibilité avec XSLT d'examiner les frères aînés d'un nœud donné (de la même manière qu'on peut examiner les ascendants, les descendants).
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Compléter la feuille de style ci-dessus pour que le résultat soit un tableau HTML avec un titre occupant toute la largeur du tableau pour chaque classe d'ancienneté, un titre pour chaque colonne et une ligne pour chaque infirmière.</LI>
+					<TEXTE>Voici ce que donne le fichier grâce à la nouvelle feuille de style:</TEXTE>
+					<IMAGE>./Exos7/Exo7.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT>
+				<FIC>
+					<TEXTE>Ficher XML infirmières</TEXTE>
+					<LIEN>./Exos7/SignaletiqueInfirmierecorpusPREMA00.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Ficher XSLT</TEXTE>
+					<LIEN>./Exos7/RegroupeParClassesAnciennete.xsl</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

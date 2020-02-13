@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionnaire>
+	<teiHeader>
+		  <title>Transcription électronique au format XML du Dictionnaire universel d’Antoine Furetière, dans la version de 1701 revue, augmentée et corrigée par Basnage de Beauval. Avec la norme TEI.</title>
+		 	<p>Siyu WANG 21800525</p><p>Produit dans le cadre du cours "documents structurés" encodé pour que ce soit le plus ressemblant possible au document original. Encodage de "Roture" jusqu'à "Rouche".</p>
+		  <source>Dictionnaire universel d’Antoine Furetière, dans la version de 1701 revue, augmentée et corrigée par Basnage de Beauval. Lien vers le dictionnaire complet numérisé sur le site Gallica: http://gallica.bnf.fr/ark:/12148/bpt6k5542578m?rk=64378;0 .</source>
+	</teiHeader>
+	<text>
+		<body>
+			<div section="ROT. ROU.">
+				<entry xml:id="roture">
+					<form><orth>ROTURE</orth></form>.
+					<gramGrp>ſ.f.</gramGrp><sense n="1">
+						<def>Heritage qui n'eſt pas noble, ou<lb/>
+						tenu noblement. </def></sense>
+						
+				<cit type="exemple"><quote><quote>
+					Les terres en <hi>rotures</hi> payent cens<lb/>
+					&amp; rentes, des laods &amp; ventes; les ſiefs payent des<lb/>
+					quints &amp; requints.</quote></quote></cit>
+					<cit type="exemple"><quote><quote>Cette maison n'est pas un ſief,<lb/>
+						ce n'eſt qu'une <hi>roture</hi>. </quote></quote></cit>
+					<cit type="exemple"><quote>Les <hi>rotures</hi> ſe partagent égale-<lb/>
+						ment.</quote></cit><lb/>
+					<origine > Ce mot vient de <hi>ruptura</hi>, que dans la baſſe Latinité on a<lb/>
+						dit pour <hi>culture</hi> de terre; &amp; l'on dit encore en pluſieurs<lb/>
+						lieux, <hi>rompre</hi> la terre; pour dire, la <hi>cultiver</hi>. Ce<lb/>
+						ſoin qu'on a donné aux païſans les a distinguez des No-<lb/>
+						bles. Voyez dans Menage une ſçavante obſervation de<lb/>
+						Bussi ſur ce mot. Borel le derive de <hi>rota</hi>, parcequ'on<lb/>
+						ſe ſervoit de païſans aux travaux penibles, comme de<lb/>
+						faire tourner les rouës des moulins, voiturer par des<lb/>
+						chariots, &amp;c.</origine><lb/>					
+					<hi rend="smallCaps">ROTURE</hi><sense n="2">, ſe dit auſſi des personnes, &amp; ſignifie, Qui<lb/>
+						eſt d'une naiſſance obſcure, d'une naiſſance qui n'eſt<lb/>
+						pas noble.</sense><cit type="exemple"><quote>Il y a de certaines Republiques, où il faut<lb/>
+						faire preuve de <hi>roture</hi> pour être admis dans les char-<lb/>
+						ges.</quote></cit><lb/>
+					<hi rend="smallCaps">ROTURE</hi><sense n="3">, Ce mot ſe prend auſſi collectivement,<lb/>
+						pour tous les Roturiers.</sense><cit type="exemple"><quote>Le beſoin d'argent a reconci-<lb/>
+						lié la Noblesse avec la <hi>roture</hi>. LA BR.</quote></cit><lb/>
+					<hi rend="smallCaps">ROTURE</hi><sense n="4">, Terme de Marine. On appelle ainſi un en-<lb/>
+						droit qui eſt lié de pluſieurs petites cordes.</sense><lb/>
+					<hi rend="smallCaps">ROTURE</hi><sense n="5">, s'employe auſſi dans un ſens figuré.</sense>
+					<cit type="exemple"><quote>Avec.<lb/>
+						les titres de Comte, &amp; de Marquis on a ſouvent bien<lb/>
+						de la <hi>roture</hi> dans l'ame. BELL.<lb/>
+						<hi>Mais enfin par le temps le merite avili-.<lb/>
+							Vit l'honneur en</hi> roture,<hi> &amp; le vice ennobli.</hi> BOI.</quote></cit><lb/>
+				</entry>
+				<entry xml:id="roturier">
+					<form><orth>ROTURIER</orth></form>.
+					<gramGrp>adj.&amp;ſubſf.</gramGrp><sense n="1">
+						<def>Qui n'eſt point Noble. </def></sense><lb/>
+					<cit type="exemple"><quote>En Provence, en Languedoc, les Nobles payent la<lb/>
+						taille pour tous les heritages <hi>roturiers</hi>. </quote></cit><cit type="exemple"><quote>Un Noble qui a<lb/>
+						Déroger devient <hi>roturier</hi>. </quote></cit>
+					<cit type="exemple"><quote>Croyez-vous que je pardon-<lb/>
+						ne la laideur d'un viſage, parcequ'il ſera deſcendu de<lb/>
+						vingt Ducs point du tout: je compte toutes les lai-<lb/>
+						des pour <hi>roturieres</hi>. LE CH.D'H</quote></cit><lb/>
+					<origine> Ce mot vient de <hi>rupturarius</hi>, qui ſignifie un Laboureur<lb/>
+						qui rompt &amp; cultive la terre, par la même raison que<lb/>
+						deſſus.</origine><lb/>	
+					<cit type="exemple"><quote>On appelle dans pluſieurs Coutumes, <hi>gens coutumiers,<lb/>
+						hommes &amp; femmes de pote</hi> ou <hi>de poste</hi>, les perſonnes <hi>ro-<lb/>
+						turieres</hi>; les fonds, terres, maisons, rentes, doüai-<lb/>
+						res, droits <hi>roturiers</hi>, &amp; tout ce qui eſt tenu à cens ou<lb/>
+						à rente d'un Seigneur en roture, &amp; qui n'est point no-<lb/>
+						le. On appelle même fief roturier, celui qui ne doit<lb/>
+						point de foi &amp; hommage, mais un ſimple cens. Ser-<lb/>
+						vitude roturiere. LE MAIT.</quote></cit><lb/>
+				</entry>
+				<entry xml:id="roturierement">
+					<form><orth>ROTURIEREMENT</orth></form>.<gramGrp> ſubſf.maſc. </gramGrp><def>D'une maniere<lb/>
+						roturiere.</def>
+					<cit type="exemple"><quote>Cette terre a toûjours été poſſedée <hi>roturie-<lb/>
+						rement</hi>.</quote></cit><cit type="exemple"><quote>Cette famille a tojours vêcu <hi>roturieremtent</hi>;<lb/>
+							on y a partagé <hi>roturierement</hi>.</quote></cit><cit type="exemple"><quote>Combien y a-t-il de no-<lb/>
+							bles qui vivent <hi>roturierement</hi>, pendant que pluſieurs<lb/>
+							roturiers vivent noblement?</quote></cit>
+				</entry>	
+			</div>
+			<div section="ROU.">
+				<entry xml:id="rouable">
+					<form><orth>ROUABLE</orth></form>.
+					<gramGrp>ſubſf.maſc.</gramGrp>
+						<def>C'eſt ainſi qu'en Provin-<lb/>
+							ce, les Boulangers appellent un certain inſtrument<lb/>
+							dont ils ſe ſervent pour manier la braiſe dans le four:<lb/>
+							à Paris on l'appelle <hi>rable</hi>.</def>
+				</entry>
+				<entry xml:id="rouage">						
+					<form><orth>ROUAGE</orth></form>. <gramGrp>ſ.m. </gramGrp><sense n="1">
+						<def>La partie d'une machine qui con-<lb/>
+						ſiſte en rouës.</def><lb/><cit type="exemple"><quote>Il faut de grandes reparations à ce mou-<lb/>
+						lin, tout le <hi>roüage</hi> n'en vaut rien.</quote></cit><cit type="exemple"><quote>On dit aussi le <hi>rüa-<lb/>
+							ge</hi> des montres.</quote></cit><cit type="exemple"><quote>Il y a des bois particuliers pour faire<lb/>
+								le <hi>roüage</hi> des machines qui roulent, comme l'orme &amp;<lb/>
+								le chêne.</quote></cit>
+						<hi rend="smallCaps">ROÜAGE</hi><sense n="2">, en termes de Coutumes, eſt un droit ſei-<lb/>
+							gneurial qui ſe prend ſur le vin vendu en gros, &amp;<lb/>
+							tranſporté par charroi, avant que la roüe tourne.</sense><lb/>
+						<cit type="exemple"><quote>Payer le droit de <hi>roüage</hi>. RAGUEAU.</quote></cit><lb/>
+					</sense>
+				</entry>	
+				<entry xml:id="rouan">
+					<form><orth>ROUAN</orth></form>.
+					<gramGrp>adject.</gramGrp>
+					<def>qui n'eſt en uſage qu'au maſculin.<lb/>
+						Terme de Manege.C'eſt la couleur, ou le poil d'un<lb/>
+						cheval, qui a du poil gris, ou blanc ſemé fort épais<lb/>
+						&amp; preſque dominant ſur un poil bai, alezan, ou noir;<lb/>
+						&amp; quand ce poil domine ſur un alezan chargé, on l'ap-<lb/>
+						pelle <hi>voian viieux</hi>.</def><cit type="exemple"><quote><hi>Roüan</hi> caveſſe de more, c'eſt le<lb/>
+						cheval qui a la tête &amp; les extremitez noires. SOLEI-<lb/>
+						SEL.</quote></cit><lb/>
+					<origine>Ce mot vient du Latin <hi>ravus</hi>, ſelon Scaliger, &amp; de l'Ita-<lb/>
+						ien <hi>roano</hi>.<lb/>
+					</origine><lb/>
+				</entry>
+				<entry xml:id="rouane">
+					<form><orth>ROUANE</orth></form>.
+					<gramGrp>ſubſf.f.</gramGrp>
+					<def>Instrument de fer aceré, con-<lb/>
+						cave comme une tariere, &amp; couppant deſſus, &amp; deſ-<lb/>
+						ſous.</def><lb/>
+				</entry>
+				<entry xml:id="rouaner">
+					<form><orth>ROUANER</orth></form>.
+					<gramGrp>v.act.</gramGrp>
+					<def>Marquer les tonneaux avec la<lb/>
+						rouanette.</def><lb/><cit type="exemple"><quote><hi>Roüaner</hi> une pompe, c'eſt en aggrandir le<lb/>
+						trou avec la roüane.</quote></cit><lb/>
+					<hi rend="smallCaps">ROÜANÉ,ÉE.</hi><gramGrp>part.paſſ.&amp;adj.</gramGrp> 
+					<cit type="exemple"><quote>Il eſt deffendu par<lb/>
+						l'Ordonnance des Aides aux Tonneliers, d'ôter les<lb/>
+						fonds ou douves des futailles qui auront été <hi>roüanées</hi>,<lb/>
+						&amp; de les mettre en d'autres muids.</quote></cit><lb/>
+				</entry>
+				<entry xml:id="rouanette">
+					<form><orth>ROUANETTE</orth></form>.
+					<gramGrp>ſ.f.</gramGrp>
+					<def>eſt un instrument de Char-
+						pentiers, qui leur ſert à marquer leurs bois. Il ſert<lb/>
+						auſſi aux Commis des Aides qui vont dans les caves, à<lb/>
+						marquer les tonneaux des Cabaretiers.</def><lb/>
+				</entry>
+				<entry xml:id="rouant">
+					<form><orth>ROUANT</orth></form>.
+					<gramGrp>adj.</gramGrp>
+					<def>Terme de Blaſon, qui ſe dit d'un<lb/>
+						paon repreſenté sur un Ecu, quand il leve &amp; étend ſa<lb/>
+						queuë.</def><lb/>
+				</entry>
+				<entry xml:id="rouche">
+					<form><orth>ROUCHE</orth></form>.
+					<gramGrp>ſ.f.</gramGrp>
+					<def>Terme de Marine. La carcaſſe d'un<lb/>
+						vaiſſeau, lorſqu'il n'a ni mâts ni agreils. Quelques-uns<lb/>
+						diſsent <hi>ruche</hi>.</def><lb/>
+				</entry>
+			</div>
+		</body>
+	</text>
+</dictionnaire>

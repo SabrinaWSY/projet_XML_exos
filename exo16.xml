@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<DOC type="tp" nom="Exercise N°16">
+	
+	<INFO>
+		<TITRE> Document structuré </TITRE>
+		<AUTEUR>Lara DUNUAN et Siyu WANG</AUTEUR>
+		<FORMATION>Master 1 TAL</FORMATION>
+	</INFO>
+	
+	<CONTENU>
+		<exercice id="16" nom="exo16" exercice="Un dictionnaire">
+			
+			<PARTIE num="1">
+				<CONSIGNE num="1">
+					Requête XPath simple (travailler de préférence avec BaseX),
+					Source : http://infolingu.univ-mlv.fr/DonneesLinguistiques/Dictionnaires/telechargement.html
+				</CONSIGNE>
+				
+				<REPONSE num="1">
+					<LI>Compter le nombre d’entrée du dictionnaire</LI>
+					<IMAGE>./Exos16/basex1.png</IMAGE>
+					<LI>Compter les différents types de catégories disponibles dans le fichiert</LI>
+					<IMAGE>./Exos16/basex2.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="1">
+				<FIC>
+					<TEXTE>Requête XPath simple 1</TEXTE>
+					<LIEN>./Exos16/exo16_xpath_1.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Requête XPath simple 2</TEXTE>
+					<LIEN>./Exos16/exo16_xpath_2.xq</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="2">
+				<CONSIGNE num="2">
+					Feuille de styles XSLT
+				</CONSIGNE>
+				
+				<REPONSE num="2">
+					<LI>Construire une feuille de styles XSLT pour extraire les 200 éléments entry à partir du 2000ième (les éléments 2001 à 2200). En sortie : un fichier XML avec le contenu initial complet des entry visées.</LI>
+					<TEXTE>Voici une image du fichier de sortie xml: </TEXTE>
+					<IMAGE>./Exos16/exo16_2000.png</IMAGE>
+	
+					<LI>Construire une feuille de style permettant d'extraire une liste de toutes les formes de tous les verbes du dictionnaire. En sortie un fichier TXT.</LI>
+					<TEXTE>Voici une image du fichier de sortie txt: </TEXTE>
+					<IMAGE>./Exos16/exo16_verbe.png</IMAGE>
+					
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="2">
+				<FIC>
+					<TEXTE>Fichier XSLT pour 2001-2200</TEXTE>
+					<LIEN>./Exos16/exo16_xslt_1.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie XML</TEXTE>
+					<LIEN>./Exos16/2001_2200.xml</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier XSLT pour verbe</TEXTE>
+					<LIEN>./Exos16/exo16_xslt_2.xsl</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de sortie TXT</TEXTE>
+					<LIEN>./Exos16/verbe.txt</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+			
+			<PARTIE num="3">
+				<CONSIGNE num="3">
+					Requête XQuery
+				</CONSIGNE>
+				
+				<REPONSE num="3">
+					<LI>Compter le nombre de verbes, de noms etc.</LI>
+					<IMAGE>./Exos16/xquery.png</IMAGE>
+				</REPONSE>
+			</PARTIE>
+			
+			<TELECHARGEMENT num="3">
+				<FIC>
+					<TEXTE>Requête XQuery</TEXTE>
+					<LIEN>./Exos16/exo16_xquery.xq</LIEN>
+				</FIC>
+				<FIC>
+					<TEXTE>Fichier de résultat</TEXTE>
+					<LIEN>./Exos16/xquery_sortie.txt</LIEN>
+				</FIC>
+			</TELECHARGEMENT>
+		</exercice>
+	</CONTENU> 
+</DOC>

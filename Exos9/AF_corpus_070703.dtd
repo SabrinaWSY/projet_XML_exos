@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!ELEMENT EXOS9 (#PCDATA | info_etudiant | teiCorpus.2)*>
+<!-- Info étudiant -->
+<!ELEMENT info_etudiant (#PCDATA | nom | prenom | email)*>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!-- teiCorpus -->
+<!ELEMENT teiCorpus.2 (#PCDATA | teiHeader | TEI.2)*>
+<!ELEMENT teiHeader (#PCDATA | fileDesc | encodingDesc | profileDesc | revisionDesc)*>
+<!ATTLIST teiHeader date.created CDATA #IMPLIED>
+<!ATTLIST teiHeader creator CDATA #IMPLIED>
+<!ELEMENT fileDesc (#PCDATA | titleStmt | extent | publicationStmt | sourceDesc)*>
+<!ELEMENT titleStmt (#PCDATA | title | respStmt | principal)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (#PCDATA | resp | name)*>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT principal (#PCDATA)>
+<!ELEMENT extent (#PCDATA)>
+<!ELEMENT publicationStmt (#PCDATA | availability | distributor | date)*>
+<!ELEMENT availability (#PCDATA | p)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT distributor (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date value CDATA #IMPLIED>
+<!ELEMENT sourceDesc (#PCDATA | recordingStmt | scriptStmt | p)*>
+<!ELEMENT recordingStmt (#PCDATA | p)*>
+<!ELEMENT scriptStmt (#PCDATA | p)*>
+<!ELEMENT encodingDesc (#PCDATA | projectDesc | editorialDecl)*>
+<!ELEMENT projectDesc (#PCDATA | p)*>
+<!ELEMENT editorialDecl (#PCDATA | normalization)*>
+<!ELEMENT normalization (#PCDATA | p)*>
+<!ELEMENT profileDesc (#PCDATA | particDesc)*>
+<!ELEMENT particDesc (#PCDATA | person)*>
+<!ELEMENT person (#PCDATA | p)*>
+<!ATTLIST person id CDATA #IMPLIED>
+<!ATTLIST person role CDATA #IMPLIED>
+<!ELEMENT revisionDesc (#PCDATA | change)*>
+<!ELEMENT change (#PCDATA | date | respStmt | item)*>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT TEI.2 (#PCDATA | teiHeader | text)*>
+<!ELEMENT text (#PCDATA | group | body)*>
+<!ELEMENT group (#PCDATA | text)*>
+<!ELEMENT body (#PCDATA | div)*>
+<!ELEMENT div (#PCDATA | head | u | note | event)*>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT u (#PCDATA | vocal | shift | pause | unclear | event | u)*>
+<!ATTLIST u who CDATA #IMPLIED>
+<!ATTLIST u n CDATA #IMPLIED>
+<!ELEMENT vocal (#PCDATA)>
+<!ATTLIST vocal desc CDATA #IMPLIED>
+<!ELEMENT shift (#PCDATA)>
+<!ATTLIST shift feature CDATA #IMPLIED>
+<!ATTLIST shift new CDATA #IMPLIED>
+<!ELEMENT pause (#PCDATA)>
+<!ATTLIST pause type CDATA #IMPLIED>
+<!ELEMENT unclear (#PCDATA)>
+<!ELEMENT event (#PCDATA)>
+<!ATTLIST event desc CDATA #IMPLIED>
+<!ELEMENT note (#PCDATA | unclear)*>
+
+
+
+
+
+
+
+

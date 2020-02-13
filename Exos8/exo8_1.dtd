@@ -1,0 +1,24 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT doc (#PCDATA | head | taggersent)*>
+
+<!ELEMENT head (#PCDATA | prenom | nom | cursus | email)*>
+<!ELEMENT prenom (#PCDATA)>
+<!ATTLIST prenom num CDATA #IMPLIED>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom num CDATA #IMPLIED>
+<!ELEMENT cursus (#PCDATA)>
+<!ATTLIST cursus num CDATA #IMPLIED>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email num CDATA #IMPLIED>
+
+<!ELEMENT taggersent (#PCDATA | taggertoken)*>
+
+<!ELEMENT taggertoken (#PCDATA)>
+<!ATTLIST taggertoken wordform CDATA #IMPLIED>
+<!ATTLIST taggertoken lemma CDATA #IMPLIED>
+<!ATTLIST taggertoken pos CDATA #IMPLIED>
+
+
+
+
