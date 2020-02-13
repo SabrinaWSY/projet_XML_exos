@@ -1,6 +1,7 @@
 # projet_XML_exos
 - Projet réalisé en M1
-- Page entièrement codé en XML avec un feuille de style xslt
+- Pages entièrement codés en XML avec un feuille de style xslt
+- Des exos de documents structurés inclus dans ce projet
 
 # visualisation
 - Page principal : index.xml
